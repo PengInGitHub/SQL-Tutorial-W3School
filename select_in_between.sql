@@ -1,0 +1,4 @@
+SELECT *
+FROM Products
+WHERE Price BETWEEN 12 AND 24
+AND Category NOT IN (1,2,3);
