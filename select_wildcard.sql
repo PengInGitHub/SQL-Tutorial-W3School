@@ -1,3 +1,3 @@
 SELECT *
 FROM Customers
-WHERE City LIKE '%es%';
+WHERE City LIKE '_erlin';
