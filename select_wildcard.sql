@@ -1,3 +1,3 @@
 SELECT *
 FROM Customers
-WHERE City LIKE '[!bsp]%';
+WHERE City NOT LIKE '[bsp]%';
