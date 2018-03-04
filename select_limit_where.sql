@@ -1,0 +1,4 @@
+SELECT *
+FROM Custoemrs
+WHERE Country='USA'
+LIMIT 30;
