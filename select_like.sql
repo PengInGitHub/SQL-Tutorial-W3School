@@ -1,3 +1,3 @@
 SELECT *
 FROM Customers
-WHERE CustomerName LIKE '_r%';
+WHERE CustomerName LIKE 'a_%_%';
