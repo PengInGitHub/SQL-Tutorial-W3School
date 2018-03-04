@@ -1,0 +1,3 @@
+SELECT *
+FROM Customers
+WHERE Price NOT BETWEEN 20 AND 10;
