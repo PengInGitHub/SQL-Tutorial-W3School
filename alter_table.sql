@@ -6,3 +6,7 @@ ADD COLUMN DateOfBirth DATE;
 --change data type
 ALTER TABLE Persons
 ALTER COLUMN DateOfBirth YEAR;
+
+--drop column
+ALTER TABLE Persons
+DROP COLUMN DateOfBirth;
