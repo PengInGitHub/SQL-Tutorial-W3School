@@ -1,0 +1,1 @@
+TURNCATE TABLE Shippers;
