@@ -11,3 +11,8 @@ ADD UNIQUE(ID);
 ALTER TABLE Persons
 ADD CONSTRAINT UC_Persons UNIQUE(ID, LastName);
 
+--To drop a UNIQUE constraint, use the following SQL:
+ALTER TABLE Persons
+DROP CONSTRAINT UC_Persons;
+
+
