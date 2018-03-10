@@ -4,3 +4,4 @@ CREATE TABLE Persons(
     FirstName varchar,
     Age int
 )
+
