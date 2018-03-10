@@ -19,7 +19,8 @@ SELECT DISTINCT Category, SUM(Products) AS CategorySales
 FROM [Product Sales for 1997]
 GROUP BY CategoryName
 
-SELECT * FROM [Category Sales for 1997];
+SELECT * FROM [Category Sales for 1997]
+WHERE CategoryName = 'Beverages'
 
 
 
