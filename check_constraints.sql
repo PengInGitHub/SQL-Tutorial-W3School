@@ -22,3 +22,7 @@ ADD CHECK (Age>=18)
 --add a named constraint
 ALTER TABLE Persons
 ADD CONSTRAINT CHK_AGE CHECK (Age>=18)
+
+--drop a check constraint
+ALTER TABLE Persons
+DROP CONSTRAINT CHK_AGE
