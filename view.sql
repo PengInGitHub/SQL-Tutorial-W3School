@@ -30,6 +30,9 @@ WHERE Discontinued=No
 
 SELECT * FROM [Current Product List];
 
+--drop a view
+DROP VIEW view_name
+
 
 
 
