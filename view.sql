@@ -22,6 +22,14 @@ GROUP BY CategoryName
 SELECT * FROM [Category Sales for 1997]
 WHERE CategoryName = 'Beverages'
 
+--update a view
+CREATE OR REPLACE VIEW [Current Product List] AS
+SELECT ProductID, ProductName, Category
+FROM Products
+WHERE Discontinued=No
+
+SELECT * FROM [Current Product List];
+
 
 
 
