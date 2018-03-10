@@ -13,3 +13,6 @@ CREATE TABLE Persons(
     RegisterDate date DEFAULT GETDATE()
 )
 
+--set default for existing table
+ALTER TABLE
+ALTER City SET DEFAULT 'Los Angeles' 
