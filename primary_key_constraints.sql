@@ -7,6 +7,10 @@ CREATE TABLE Persons(
 )
 
 --alter table by creating a pk
-ALTER TABLE Persons(
-    ADD PRIMARY KEY (ID)
-)
+ALTER TABLE Persons
+ADD PRIMARY KEY (ID)
+
+
+--drop primary key
+ALTER TABLE Persons
+DROP PRIMARY KEY
