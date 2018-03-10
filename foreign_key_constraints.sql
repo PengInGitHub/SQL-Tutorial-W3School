@@ -18,3 +18,7 @@ CREATE TABLE Orders(
 --add foreign key to existing table
 ALTER TABLE Persons
 ADD FOREIGN KEY PersonID REFERENCES Persons (PersonID)
+
+--add named foreign key
+ALTER TABLE Persons
+ADD CONSTRAINT FK_PersonOrder FOREIGN KEY PersonID REFERENCES Persons (PersonID)
