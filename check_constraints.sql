@@ -13,5 +13,8 @@ CREATE TABLE Persons(
     Age int,
     City varchar,
     CONSTRAINT CHK_AGE_CITY CHECK (Age>=18 AND City='London')
-
 )
+
+--add a check to existing table
+ALTER TABLE Persons
+ADD CHECK (Age>=18)
