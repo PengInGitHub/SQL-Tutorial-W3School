@@ -18,3 +18,7 @@ CREATE TABLE Persons(
 --add a check to existing table
 ALTER TABLE Persons
 ADD CHECK (Age>=18)
+
+--add a named constraint
+ALTER TABLE Persons
+ADD CONSTRAINT CHK_AGE CHECK (Age>=18)
